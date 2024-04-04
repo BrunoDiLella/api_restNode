@@ -1,0 +1,21 @@
+npm init -y
+npm i fastify
+npm i -D typescript
+npx tsc --init
+npm install -D @types/node
+npm install tsx -D
+
+
+npm i eslint -D
+
+"editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+    },
+
+     npm i knex sqlite3
+     "knex": "node --import tsx ./node_modules/knex/bin/cli.js"
+    npm run knex -- migrate:make add session id to transactions
+
+     npm i dotenv
+
+     npm i zod
