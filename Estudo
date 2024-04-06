@@ -27,3 +27,5 @@ npm i vitest -D
 npm i supertest -D
 
 npm i tsup -D
+
+npm i pg
